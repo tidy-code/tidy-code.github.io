@@ -8,10 +8,7 @@
             href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
             rel="stylesheet"
         />
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/gh/tidy-code/GOLjs/style.css"
-        />
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <div class="container">
@@ -36,6 +33,11 @@
             <br />
             <label><input type="checkbox" id="sticky-cells" />sticky</label>
             <br />
+            <a
+                href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"
+                target="_blank"
+                >What is game of life?</a
+            >
             <br />
             <h3>Load from list:</h3>
             <div id="saved-items"></div>
@@ -69,25 +71,9 @@
             </defs>
         </svg>
 
-        <script
-            crossorigin
-            type="application/javascript"
-            src="https://cdn.jsdelivr.net/gh/tidy-code/GOLjs/lib/fps.js"
-        ></script>
-        <script
-            crossorigin
-            type="application/javascript"
-            src="https://cdn.jsdelivr.net/gh/tidy-code/GOLjs/lib/engine.js"
-        ></script>
-        <script
-            crossorigin
-            type="application/javascript"
-            src="https://cdn.jsdelivr.net/gh/tidy-code/GOLjs/lib/microscope.js"
-        ></script>
-        <script
-            crossorigin
-            type="application/javascript"
-            src="https://cdn.jsdelivr.net/gh/tidy-code/GOLjs/main.js"
-        ></script>
+        <script src="lib/fps.js"></script>
+        <script src="lib/engine.js"></script>
+        <script src="lib/microscope.js"></script>
+        <script src="main.js"></script>
     </body>
 </html>
