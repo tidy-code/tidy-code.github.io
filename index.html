@@ -7,10 +7,70 @@
     </head>
     <body>
         <h1>Demo Hub</h1>
-        <ul>
-            <li><a href="GOLjs.html">GameOfLife demo</a></li>
-            <li><a href="MathPlotter.html">MathPlotter demo</a></li>
-            <li><a href="/u-kit">u-kit (Universal UI Kit)</a></li>
+        <ul id="list-of-projects">
+            <li>
+              <a href="GOLjs.html">
+                <img src="game-of-life.svg" />
+                Game Of Life
+                <br>
+                <small>[demo]</small>
+              </a>
+            </li>
+            <li>
+              <a href="MathPlotter.html">
+              <img src="math-plot.svg" />
+                MathPlotter
+                <br>
+                <small>[demo]</small>
+              </a>
+            </li>
+            <li>
+              <a href="/u-kit">
+                <img src="u-kit.svg" />
+                U-Kit
+                <br>
+                <small>Universal UI Kit</small>
+              </a>
+            </li>
         </ul>
+        <style>
+          html, body {
+            font-family: sans-serif, Tahoma, Arial;
+            text-align: center;
+          }
+          ul#list-of-projects {
+            list-style: none;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            padding: 0;
+          }
+          #list-of-projects li {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px 20px;
+          }
+          #list-of-projects img {
+            width: 72px;
+            display: block;
+            margin: 10px auto;
+          }
+          #list-of-projects a {
+            color: #333;
+            font-family: sans-serif, Tahoma, Arial;
+            text-decoration: none;
+            vertical-align: middle;
+            display: inline-block;
+            margin-left: 5px;
+            font-size: 14px;
+            font-weight: bold;
+          }
+          small {
+            font-size: 0.6em;
+            font-weight: normal;
+          }
+        </style>
     </body>
 </html>
